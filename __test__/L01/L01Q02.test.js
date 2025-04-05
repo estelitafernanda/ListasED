@@ -10,7 +10,9 @@ iii. As funções empilhaA, empilhaB, desempilhaA e desempilhaB. Só deve ser
 emitida uma mensagem de pilha cheia se todas as posições do vetor estiverem ocupadas.
 */
 
-const PilhaQ2 = require("../../src/L01/PilhaQ02");
+const PilhaQ2 = require("../../src/L01/L01Q02");
+
+
 
 
 
