@@ -1,5 +1,6 @@
-let d;
+const { Deque } = require("../../src/L02/L02Q05");
 
+let d;
 beforeEach(() => {
     d =  new Deque(5);
 })
@@ -18,6 +19,11 @@ test("", () => {
     expect(d.removerFim()).toBe(15);
 })
 
-test("", () => {
-    
-})
+test("Conversão doa", () => {
+    d.inserirInicio("A");
+    d.inserirInicio("B");
+    d.inserirInicio("C");
+    d.inserirInicio("D");
+    d.inserirFim("E");
+    expect(d.toString()).toStrictEqual("[D, C, B, A, E]")
+});
